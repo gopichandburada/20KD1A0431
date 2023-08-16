@@ -35,7 +35,6 @@ function NumberDisplay() {
   return (
     <div>
       <div>
-        <h2>Numbers:</h2>
         <pre>{JSON.stringify({ numbers }, null, 2)}</pre>
       </div>
     </div>
